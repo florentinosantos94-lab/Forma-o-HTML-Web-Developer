@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha HTML - Dio.me</title>
+</head>
+<body>
+    <h1>Título Principal</h1>
+    <p>Este é um parágrafo de texto com algumas <mark>palavras destacadas</mark> e <small>texto em tamanho pequeno</small>.</p>
+    <p>Também pode usar <i>itálico</i>, <u>sublinhado</u>, <strong>negrito</strong>, entre outros estilos.</p>
+    
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    
+    <ul>
+        <li>Item A</li>
+        <li>Item B</li>
+        <li>Item C</li>
+    </ul>
+    
+    <a href="https://www.example.com">Link para exemplo</a>
+    
+    <hr>
+    
+    <sub>Texto subscrito</sub>
+    
+    <sup>Texto sobrescrito</sup>
+    
+    <blockquote>Citação importante</blockquote>
+    
+    <del>Texto deletado</del>
+    
+    <p>Outro parágrafo usando a tag <abbr title="Abbreviation">abbr</abbr> para abreviação.</p>
+</body>
+</html>
