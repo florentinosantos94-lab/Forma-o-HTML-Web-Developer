@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Médica - Especialidade Escolhida</title>
+</head>
+<body>
+    <header>
+        <img src="caminho_para_imagem/header_imagem.jpg" alt="Imagem Header">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="pagina_principal.html">Página Principal</a></li>
+            <li><a href="sobre.html">Sobre a Clínica</a></li>
+            <li><a href="horario_atendimento.html">Horário de Atendimento</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Página Principal</h1>
+        <p>Breve descrição sobre a clínica.</p>
+    </main>
+
+    <footer>
+        <p>Endereço: Rua XXXX, Nº XX - Cidade - Estado<br>Telefone: (XX) XXXX-XXXX | Whatsapp: (XX) XXXXX-XXXX</p>
+    </footer>
+</body>
+</html>
