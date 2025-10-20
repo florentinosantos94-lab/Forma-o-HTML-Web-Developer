@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone do Site HBO Max</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- Menu de Navegação -->
+        <!-- Cabeçalho com Animação Gradiente -->
+    </header>
+
+    <main>
+        <section class="subscription-plans">
+            <!-- Cards com Planos de Assinatura Animados -->
+        </section>
+        
+        <section class="movies-list">
+            <!-- Lista de Filmes e Séries -->
+        </section>
+
+        <section class="login-form">
+            <h2>Formulário de Login</h2>
+            <form action="/login" method="post">
+                <div class="form-group">
+                    <label for="username">Usuário:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Rodapé com Links Importantes -->
+    </footer>
+</body>
+</html>
