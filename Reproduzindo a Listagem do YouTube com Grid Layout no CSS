@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone do YouTube - Página de Listagem de Vídeos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- Logo e elementos do cabeçalho -->
+    </header>
+
+    <nav>
+        <!-- Menu de navegação -->
+    </nav>
+
+    <main class="grid-container">
+        <section class="videos">
+            <!-- Lista de vídeos -->
+        </section>
+        
+        <aside class="sidebar">
+            <!-- Barra lateral com sugestões e informações adicionais -->
+        </aside>
+    </main>
+
+    <footer>
+        <!-- Rodapé com informações adicionais e links úteis -->
+    </footer>
+</body>
+</html>
