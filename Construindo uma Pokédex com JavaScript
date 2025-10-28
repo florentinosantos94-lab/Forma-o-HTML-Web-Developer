@@ -1,0 +1,26 @@
+// Vamos aprimorar a Pokédex com animações e filtros de busca para uma experiência mais interativa!
+
+// Função para exibir os dados do Pokémon na página com animações
+function showPokemonDataWithAnimations(pokemon) {
+    // Implemente aqui a exibição dos dados do Pokémon com animações
+    // Por exemplo, adicione transições suaves ao mostrar as informações do Pokémon
+}
+
+// Função para filtrar os Pokémon por nome na Pokédex
+function filterPokemonByName(pokemonList, searchTerm) {
+    return pokemonList.filter(pokemon => pokemon.name.toLowerCase().includes(searchTerm.toLowerCase()));
+}
+
+// Exemplo: Filtrar e exibir os dados dos Pokémon cujo nome contenha "pikachu"
+getPokemonData(25)
+    .then(data => {
+        showPokemonDataWithAnimations(data);
+    })
+    .catch(error => {
+        console.error('Erro ao obter dados do Pokémon:', error);
+    });
+
+// Exemplo de uso do filtro de busca por nome
+const pokemonList = ['pikachu', 'bulbasaur', 'charmander', 'squirtle', 'eevee'];
+const filteredPokemon = filterPokemonByName(pokemonList, 'char');
+console.log(filteredPokemon);
