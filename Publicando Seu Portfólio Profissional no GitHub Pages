@@ -1,0 +1,31 @@
+{
+  "informacoesPessoais": {
+    "nome": "Seu Nome",
+    "titulo": "Desenvolvedor Web Full Stack",
+    "localizacao": "Sua Cidade, Seu País",
+    "email": "seuemail@example.com",
+    "telefone": "+55 123 456 789",
+    "sobreMim": "Breve descrição sobre você e suas habilidades."
+  },
+  "habilidades": {
+    "linguagens": ["JavaScript", "HTML", "CSS"],
+    "frameworks": ["React", "Node.js", "Bootstrap"],
+    "ferramentas": ["Git", "VSCode", "Figma"]
+  },
+  "projetos": [
+    {
+      "nome": "Projeto 1",
+      "descricao": "Breve descrição do projeto 1.",
+      "tecnologias": ["HTML", "CSS", "JavaScript"],
+      "imagem": "projeto1.jpg",
+      "link": "https://www.exemplo.com/projeto1"
+    },
+    {
+      "nome": "Projeto 2",
+      "descricao": "Breve descrição do projeto 2.",
+      "tecnologias": ["React", "Node.js", "MongoDB"],
+      "imagem": "projeto2.jpg",
+      "link": "https://www.exemplo.com/projeto2"
+    }
+  ]
+}
